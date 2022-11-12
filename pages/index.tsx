@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Head from 'next/head';
 import Link from 'next/link';
+import BlogList from '../components/blogs/blogList';
 import Footer from '../components/footer';
-import Portfolio from '../components/portfolio';
-import Blogs from '../components/blog';
+
 import Navbar from '../components/navbar';
+import PortfolioList from '../components/portfolios/portfoliosList';
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
           </h2>
 
           {/* Blog List Starts */}
-          <Blogs />
+          <BlogList />
           {/* Blog List Ends */}
 
           <br />
@@ -41,7 +42,7 @@ export default function Home() {
           </h2>
 
           {/* Portfolio List Starts */}
-          <Portfolio />
+          <PortfolioList />
           {/* Portfolio List Ends */}
         </div>
       </div>
