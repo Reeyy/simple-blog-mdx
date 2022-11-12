@@ -6,11 +6,13 @@ export default function Header() {
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
           <span className="block xl:inline">Welcome to my</span>{' '}
-          <span className="block text-indigo-600 xl:inline">little space</span>
+          <span className="block text-indigo-600 xl:inline">mini blog </span>
         </h1>
         <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-          My name is XY and I am a software developer. Feel free to check my
-          working experience and blogs about tech topics.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+          labore nam enim, consectetur quo maxime porro perferendis. Omnis
+          distinctio aut neque commodi non, quos est quia doloremque animi
+          reiciendis vel.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">

@@ -6,7 +6,7 @@ export default function CopyRight() {
     <>
       &copy;
       <Link color="inherit" href="/">
-        XY
+        lorem
       </Link>{' '}
       {new Date().getFullYear()}
     </>

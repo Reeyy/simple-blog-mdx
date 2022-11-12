@@ -5,7 +5,7 @@ import Navigation from './navigation';
 
 export default function Navbar() {
   return (
-    <div className="relative">
+    <div className="relative flex">
       <div className="relative z-10 bg-white rounded-b-3xl pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
         <svg
           className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
